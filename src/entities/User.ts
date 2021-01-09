@@ -1,5 +1,4 @@
 import Role from "./Role";
-import { DateUtil } from '../utils/DateUtil';
 import { Column, Entity, PrimaryGeneratedColumn, Unique } from 'typeorm';
 import { jsonIgnoreReplacer, jsonIgnore } from 'json-ignore';
 @Entity()

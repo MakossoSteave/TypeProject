@@ -1,6 +1,4 @@
-// import Bdd from "../bdd/bdd";
 import { Request, Response } from 'express';
-import User from '../entities/User';
 export class AuthController{
     static login = async (req: Request, res: Response) => {
       

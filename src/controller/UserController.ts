@@ -1,6 +1,5 @@
 import { Request, Response } from 'express';
 
-import Role from '../entities/Role';
 import User from '../entities/User';
 
 import { jsonIgnoreReplacer, jsonIgnore } from 'json-ignore';
